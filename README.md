@@ -63,6 +63,8 @@ Deletes the element at index `ind` from the heap `hp`.
 
 ### Min-Heap Example:
 ```python
+from min_heap import heapify,hins,hdel
+
 l = [2, 5, 4, 3, 7, 9, 6]
 z = heapify(l)
 print(z)
@@ -76,6 +78,8 @@ print(z)
 
 ### Max-Heap Example:
 ```python
+from max_heap import heapify,hins,hdel
+
 l = [2, 5, 4, 3, 7, 9, 6]
 z = heapify(l)
 print(z)
