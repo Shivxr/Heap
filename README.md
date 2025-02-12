@@ -70,7 +70,6 @@ print(z)
 
 ## Future Improvements
 
-- Implement a max-heap variant.
 - Optimize `heapify()` to use a more efficient bottom-up approach.
 - Add error handling for invalid indices.
 
